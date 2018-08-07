@@ -27,7 +27,7 @@
 
        <div class="row">
            <div class="col-sm-6">
-               <a class="btn btn-block btn-default" href="">Создать категорию</a>
+               <a class="btn btn-block btn-default" href="{{ route('admin.category.store') }}">Создать категорию</a>
                <a class="list-group-item" href="">
                    <h4 class="list-group-item-heading">Категория первая</h4>
                    <p class="list-group-item-text">
@@ -36,7 +36,7 @@
                </a>
            </div>
            <div class="col-sm-6">
-               <a class="btn btn-block btn-default" href="">Создать материал</a>
+               <a class="btn btn-block btn-default" href="{{ route('admin.article.store') }}">Создать материал</a>
                <a class="list-group-item" href="">
                    <h4 class="list-group-item-heading">Материал первый</h4>
                    <p class="list-group-item-text">
